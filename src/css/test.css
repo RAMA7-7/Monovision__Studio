@@ -1,0 +1,20 @@
+/* Применить к 1 свойству */
+/* имя свойства | длительность */
+transition: margin-left 4s;
+
+/* имя свойства | длительность | задержка */
+transition: margin-left 4s 1s;
+
+/* имя свойства | длительность | временная функция | задержка */
+transition: margin-left 4s ease-in-out 1s;
+
+/* Применить к 2 свойствам */
+transition: margin-left 4s, color 1s;
+
+/* Применить ко всем изменённым свойствам */
+transition: all 0.5s ease-out;
+
+/* Глобальные значения */
+transition: inherit;
+transition: initial;
+transition: unset;
